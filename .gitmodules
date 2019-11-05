@@ -1,3 +1,6 @@
 [submodule "TodoAngularAPI"]
 	path = TodoAngularAPI
 	url = https://github.com/haydenknowles/TodoAngularAPI.git
+[submodule "todo-angular"]
+	path = todo-angular
+	url = https://github.com/haydenknowles/todo-angular.git
