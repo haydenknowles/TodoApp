@@ -25,6 +25,6 @@ docker build -t ngtodo todo-angular
 
 Create and run a docker container from the images built:
 ```sh
-docker run -d -p 8888:80  --name todo-backend netapi
-docker run -d -p 4200:4200 --name todo-frontend todoapp
+docker run -d -p 80:80  --name todo-backend netapi
+docker run -d -p 4200:4200 --name todo-frontend ngtodo
 ```
